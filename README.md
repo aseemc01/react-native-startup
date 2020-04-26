@@ -8,14 +8,20 @@ React native starter template to get you up and running quickly.
 
 ## Features ✨
 
-- Redux setup with logger and persist
+- Redux setup with _redux-logger_ and _redux-persist_
 - Environment config setup
-- Debug, Stage and Release variants for both iOS and Android.
+- Debug, Stage and Release variants for both iOS and Android
 - Lint
 
 ## Usage ✍🏻
 
 - Click on ![Use this template](/src/assets/readme/use-this-template.png) to have your own repo created from this template.
+- Clone the repo on your local machine
+- Run
+  - `yarn`
+  - `cd iOS && pod install`
+  - Add environment files: _.env_, _.env.staging_, _.env.production_
+  - `yarn ios` or `yarn android`
 
 ## Key Dependencies 🤘🏻
 
@@ -39,4 +45,4 @@ This project is inspired by this [template](https://github.com/moove-it/react-na
 
 ## References 📚
 
-- Adding [multiple iOS Schemes](https://medium.com/@guerrix/multiple-schemes-and-configurations-in-a-react-native-ios-app-fb1812b940c8)
+- Adding [multiple iOS Schemes](https://medium.com/@guerrix/multiple-schemes-and-configurations-in-a-react-native-ios-app-fb1812b940c8) in react native.
