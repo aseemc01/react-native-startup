@@ -12,16 +12,21 @@ const Test = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>Build: {Config.RELEASE_MODE}</Text>
-
+      <Text style={styles.header}>MODE from env: {Config.RELEASE_MODE}</Text>
+      <View style={{ height: 20 }} />
       <Text>{state.count}</Text>
+      <View style={{ height: 20 }} />
       <Button title="Increment" onPress={() => dispatch(increment())} />
+      <View style={{ height: 10 }} />
       <Button title="Decrement" onPress={() => dispatch(decrement())} />
+      <View style={{ height: 10 }} />
       <Button
-        title="Fetch Users"
+        title="Fetch Remote Users"
         onPress={() => dispatch(fetchRemoteUsers())}
       />
       {state.isFetchingUsers && <Text>Fetching users...</Text>}
+      {Object.keys(state.users) &&
+        state.users.map(user => <Text key={user.id}>{user.name}</Text>)}
     </View>
   );
 };

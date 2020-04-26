@@ -6,7 +6,7 @@ const countInitialState = {
 };
 
 const usersInitialState = {
-  users: null,
+  users: [],
   isFetchingUsers: false,
   error: null,
 };

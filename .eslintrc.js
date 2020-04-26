@@ -15,5 +15,6 @@ module.exports = {
     'arrow-parens': 0,
     'max-len': [2, { code: 120 }],
     'react/jsx-one-expression-per-line': 0,
+    'operator-linebreak': 0,
   },
 };

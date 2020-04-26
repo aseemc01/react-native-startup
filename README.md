@@ -1,22 +1,23 @@
 # react-native-startup
 
----
-
 React native starter template to get you up and running quickly.
 
-## Usage
+> ❗If you are a beginner, please refer to the official React Native [setup guide.](https://reactnative.dev/docs/environment-setup)
 
----
+![iOS](/src/assets/readme/ios.gif) ![Android](/src/assets/readme/android.gif)
 
-## Setup
+## Features ✨
 
----
+- Redux setup with logger and persist
+- Environment config setup
+- Debug, Stage and Release variants for both iOS and Android.
+- Lint
 
-If you are a complete beginner, please refer to the official React Native [setup guide.](https://reactnative.dev/docs/environment-setup)
+## Usage ✍🏻
 
-## Key Dependencies
+- Click on ![Use this template](/src/assets/readme/use-this-template.png) to have your own repo created from this template.
 
----
+## Key Dependencies 🤘🏻
 
 - [React](https://reactjs.org/) v16.11.1
 - [React Native](https://reactnative.dev/) v62.2
@@ -28,18 +29,14 @@ If you are a complete beginner, please refer to the official React Native [setup
 - [Axios](https://github.com/axios/axios) v0.19.2
 - [PropTypes](https://www.npmjs.com/package/prop-types) v15.7.2
 
-## Key Dev dependencies
-
----
+## Key Dev dependencies 👍🏻
 
 - [Storybook](https://storybook.js.org/docs/guides/guide-react-native/) v5.3.18
 
 ## Motivation
 
----
+This project is inspired by this [template](https://github.com/moove-it/react-native-template).
 
-## References
-
----
+## References 📚
 
 - Adding [multiple iOS Schemes](https://medium.com/@guerrix/multiple-schemes-and-configurations-in-a-react-native-ios-app-fb1812b940c8)
