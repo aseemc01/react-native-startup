@@ -14,5 +14,6 @@ module.exports = {
     'react-native/no-unused-styles': 2,
     'arrow-parens': 0,
     'max-len': [2, { code: 120 }],
+    'react/jsx-one-expression-per-line': 0,
   },
 };

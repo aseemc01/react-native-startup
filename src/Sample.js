@@ -1,6 +1,7 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import { StyleSheet, View, Text, Button } from 'react-native';
+import { useDispatch } from 'react-redux';
+import Config from 'react-native-config';
 
 import useExampleState from './states/exampleState';
 
@@ -11,6 +12,8 @@ const Test = () => {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.header}>Build: {Config.RELEASE_MODE}</Text>
+
       <Text>{state.count}</Text>
       <Button title="Increment" onPress={() => dispatch(increment())} />
       <Button title="Decrement" onPress={() => dispatch(decrement())} />
@@ -28,6 +31,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flex: 1,
     justifyContent: 'center',
+  },
+  header: {
+    fontSize: 24,
+    fontWeight: 'bold',
   },
 });
 
